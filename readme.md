@@ -1,6 +1,6 @@
 # sslcheck
 
-A simple php script to check the expiry of SSL certificates.
+A simple php script to check the expiry of SSL certificates - Windows Version.
 
 <a href="https://asciinema.org/a/105703" target="_blank"><img src="https://asciinema.org/a/105703.png" width="480"/></a>
 
@@ -28,4 +28,3 @@ sslcheck www.google.com www.example.com www.github.com
 #### Usage via Email
 
 The file `email-example.sh` is a simple script showing how this can be used via email. Simply read the comments at the top of the script and change the configuration variables to set it up. If the `mail` command is not available on your system you may need to install it (ubuntu: `sudo apt-get install mailutils`). A good idea would be to set this up as a cron job to send a weekly report.
-
