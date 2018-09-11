@@ -1,2 +1,2 @@
 @echo off
-php ssl %*
+php %~dp0\ssl %*
